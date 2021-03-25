@@ -15,13 +15,20 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       h1 {
         text-transform: uppercase;
         font-size: 60px;
         color: red;
         text-align: center;
-
+      }
+      .banner {
+        min-height: 100vh;
+        background: blue;
       }
     </style>
   </head>
@@ -29,6 +36,7 @@
     <header class="hero">
       <h1>page title</h1>
     </header>
+    <div class="banner"></div>
     <a href="index.html">back home page</a>
   </body>
 </html>
