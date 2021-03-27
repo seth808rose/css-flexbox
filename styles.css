@@ -1,4 +1,7 @@
-.body {
+* {
+  box-sizing: border-box;
+}
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #f3f3f3;
 }
@@ -6,10 +9,7 @@
   border: 5px solid red;
 }
 .box {
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: #f3f3f3;
+  padding: 150px
 }
 .box-1 {
   background: #581f18;
